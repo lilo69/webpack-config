@@ -1,9 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: './app/index.html',
-  filename: 'index.html',
-  inject: 'body'
+    template: './app/index.html',
+    filename: 'index.html',
+    inject: 'body'
 })
 module.exports = {
     entry: './app/index.js',
@@ -12,16 +12,18 @@ module.exports = {
         filename: 'bundle.js'
     },
     mode: 'development',
+    watch: true,
     module: {
-        rules: [{
-                test: /\.css$/,
+        rules: [
+            {
+                test: /\.scss$/,
                 use: [{
-                        loader: 'style-loader'
-                    },
-                    {
-                        loader: 'css-loader'
-                    }
-                ]
+                    loader: "style-loader"
+                }, {
+                    loader: "css-loader"
+                }, {
+                    loader: "sass-loader"
+                }]
             },
             {
                 test: /\.js$/,
