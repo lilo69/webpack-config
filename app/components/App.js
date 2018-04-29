@@ -1,10 +1,18 @@
-import React from 'react';
+//@flow
+import * as React from 'react';
+import AddTodo from 'containers/AddTodo';
+import VisibleTodoList from 'containers/VisibleTodoList';
+import Footer from 'components/Footer';
 
-export default class App extends React.Component {
+type Props = {};
+type State = {};
 
-    render() {
-        return (
-            <p>{1234}</p>
-        );
-    }
+export default class App extends React.Component<Props, State> {
+	render() {
+		return <div>
+			<AddTodo/>
+			<VisibleTodoList/>
+			<Footer/>
+		</div>;
+	}
 }
