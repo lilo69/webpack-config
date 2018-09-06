@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CyHome</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico"/>
+    <link href="/assets/plugins/fontawesome-free-webfonts/css/fa-brands.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="/assets/plugins/fontawesome-free-webfonts/css/fa-regular.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="/assets/plugins/fontawesome-free-webfonts/css/fa-solid.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="/assets/plugins/fontawesome-free-webfonts/css/fontawesome.css" rel="stylesheet"
+          type="text/css"/>
+</head>
+<body ondrop="drop">
+<div id="root">
+</div>
+<div id="modal-root">
+</div>
+<div id="alert-root">
+</div>
+<script src="/bundle.js"></script>
+<script src="/assets/javascript/scroll.js"></script>
+<script>
+    function drop(event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+</script>
+</body>
+</html>

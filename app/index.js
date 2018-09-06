@@ -1,12 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
-import {createStore, applyMiddleware} from 'redux';
-import reducers from 'reducers';
-import {logger, crashReporter} from 'middlewares';
-import App from 'components/App';
+import {applyMiddleware, createStore} from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import logger from 'redux-logger';
+import {isEqual} from 'lodash';
+import Routes from 'routes';
+// import saga from 'saga';
+require('../public/assets/styles/style.scss');
 
-const store = createStore(reducers, applyMiddleware(logger, crashReporter));
+const sagaMiddleware = createSagaMiddleware();
+const defaultState = {};
 
-ReactDOM.render(
-	<Provider store={store}><App/></Provider>, document.getElementById('root'));
+// let store = createStore(
+// 	defaultState,
+// 	applyMiddleware((process.env.NODE_ENV === 'development' && logger), sagaMiddleware)
+// );
+
+// sagaMiddleware.run(saga);
+
+//listen access token change after login
+let currentState = undefined;
+// store.subscribe(() => {
+// 	let prevState = currentState;
+// 	currentState = store.getState();
+// 	if (currentState && prevState) {
+// 		if (!isEqual(currentState.data.user, prevState.data.user)) {
+// 			Cookie.save('cyhome', {
+// 				...cache,
+// 				user: currentState.data.user
+// 			});
+// 		}
+// 	}
+// });
+
+//pass language selected from cache to project
+// setLanguage(cache.language ? cache.language: 'en');
+
+ReactDOM.render(<Routes/>, document.getElementById('root'));

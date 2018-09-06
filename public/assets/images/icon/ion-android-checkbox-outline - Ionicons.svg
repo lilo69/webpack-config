@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ion-android-checkbox-outline - Ionicons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/CheckedBox" fill="#4A4A4A">
+            <path d="M3.28125,4.71875 L5.34375,6.78125 L11.0625,1.0625 L12,2 L5.34375,8.65625 L2.34375,5.65625 L3.28125,4.71875 Z M10.65625,10.65625 L10.65625,5.34375 L12,5.34375 L12,10.65625 C12,11.0104184 11.8645847,11.3229153 11.59375,11.59375 C11.3229153,11.8645847 11.0104184,12 10.65625,12 L1.34375,12 C0.989581562,12 0.677084687,11.8645847 0.40625,11.59375 C0.135415313,11.3229153 0,11.0104184 0,10.65625 L0,1.34375 C0,0.989581563 0.135415313,0.677084688 0.40625,0.40625 C0.677084687,0.135415312 0.989581562,0 1.34375,0 L8,0 L8,1.34375 L1.34375,1.34375 L1.34375,10.65625 L10.65625,10.65625 Z" id="ion-android-checkbox-outline---Ionicons"></path>
+        </g>
+    </g>
+</svg>

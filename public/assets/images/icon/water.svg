@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI---Manager" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20">
+            <rect id="Rectangle-22-Copy-10" fill="#3487CB" x="0" y="0" width="20" height="20" rx="2"></rect>
+            <path d="M14.1762391,12.0125 C14.1762391,14.7833242 11.8851068,17 9.08811955,17 C6.29113225,17 4,14.7833242 4,12.0125 C4,9.24167578 9.08811955,3 9.08811955,3 C9.08811955,3 14.1762391,9.27082422 14.1762391,12.0125 Z M9.08811955,15.6875 C9.32615093,15.6875 9.53444583,15.4833242 9.53444583,15.25 C9.53444583,15.0166758 9.32615093,14.8125 9.08811955,14.8125 C7.51110934,14.8125 6.23163138,13.5583242 6.23163138,12.0125 C6.23163138,11.7791758 6.02333649,11.575 5.78530511,11.575 C5.54727372,11.575 5.33897883,11.7791758 5.33897883,12.0125 C5.33897883,14.0541758 7.03501868,15.6875 9.08811955,15.6875 Z" id="Combined-Shape-Copy" fill="#F0F3F6"></path>
+        </g>
+    </g>
+</svg>

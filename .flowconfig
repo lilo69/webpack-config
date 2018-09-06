@@ -3,7 +3,7 @@
 [include]
 ./app/components
 [libs]
-
+./flow-typed/
 [lints]
 all=warn
 [options]
